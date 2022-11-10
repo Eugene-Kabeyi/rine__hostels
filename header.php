@@ -24,10 +24,10 @@
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <div class="col-md-4">
-                    
+
                         <a class="navbar-brand" href="#">
-                        <i class="fa fa-hotel fa-2x " style="margin:2px"></i>
-                        <span class="h4">Rine Hostels</span></a>
+                            <i class="fa fa-hotel fa-2x " style="margin:2px"></i>
+                            <span class="h4">Rine Hostels</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">
-                                    <i class="fas fa-hand-point-right" style="margin :2px ;color: cyan"></i>
+                                        <i class="fas fa-hand-point-right" style="margin :2px ;color: cyan"></i>
                                         <span style="font-size : 17px ;color: cyan">Book Now</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -52,14 +52,15 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">How do I pay?</a></li>
-                                        <li><a class="dropdown-item" href="#">Are there any other miscallenous cost?</self-contined></a></li>
+                                        <li><a class="dropdown-item" href="#">Are there any other miscallenous cost?
+                                                </self-contined></a></li>
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
                                         <li><a class="dropdown-item" href="#">Are our rooms self-contained?</a></li>
                                     </ul>
                                 </li>
-                                
+
                             </ul>
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -72,4 +73,37 @@
 
         </div>
     </div>
-    
+
+    <div class="row" style="margin:2px;">
+        <div class="col-md-3 col-lg-3 bg-dark" style="border-right:6px solid cyan">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <i class="fas fa-home"></i>
+                        <span class="h5" style="color :blue">Home</span>
+                    </a>
+                </li>
+                <hr class="bg-white">
+
+
+                <li class="nav-item navsep">
+                    <a class="nav-link " href="">
+                        <i class="fa fa-group"></i>
+                        <span class=" h5" style="color :blue">About Us</span>
+                    </a>
+                <li>
+                <hr class="bg-white">
+
+                <li class="nav-item navsep">
+                    <a class="nav-link " href="">
+                        <i class="fas fa-comments"></i>
+                        <span class=" h5" style="color :blue">Inquires</span>
+                    </a>
+            
+                <li>
+                <hr class="bg-white">
+            </ul>
+
+        </div>
+    </div>
