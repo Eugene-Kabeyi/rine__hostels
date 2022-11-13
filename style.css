@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html{
+	height: 100%;
+}
 .footer{
     width: 100%;
-
     bottom: 0;
     background : linear-gradient(to right, #00093c,#2d0b00);
     color: #fff;
@@ -9,10 +11,14 @@
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
+	margin-top: auto;
+	
+	
 
 }
 body{
 	line-height: 1.5;
+	min-height: 100%;
 	
 }
 *{
