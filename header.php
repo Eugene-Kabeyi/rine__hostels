@@ -80,57 +80,33 @@
         </div>
     </header>
     <main>
-   <div class="row" style="margin:2px;">
-       <div class="col-md-3 col-lg-3 bg-dark" style="border-right:6px solid cyan">
-           <ul class="nav flex-column">
-               <li class="nav-item">
-                   <a class="nav-link active" href="home.php">
-                       <i class="fas fa-home"></i>
-                       <span class="h5" style="color :blue">Home</span>
-                   </a>
-               </li>
-               <hr class="bg-white">
-               <li class="nav-item navsep">
-                   <a class="nav-link " href="aboutus.php">
-                       <i class="fa fa-group"></i>
-                       <span class=" h5" style="color :blue">About Us</span>
-                   </a>
-               <li>
-                   <hr class="bg-white">
-               <li class="nav-item navsep">
-                   <a class="nav-link " href="quiz.php">
-                       <i class="fas fa-comments"></i>
-                       <span class=" h5" style="color :blue">Inquires</span>
-                   </a>
-               <li>
-                   <hr class="bg-white">
-           </ul>
-       </div>
-       <div class="col-md-9 col-lg-9 bg-light">
-           <div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        <div class="row" style="margin:2px;">
+            <div class="col-md-3 col-lg-3" style="margin: 0%" >
+                <div class="bg-dark" style=" border-right:6px solid cyan; margin-left: 0%" >
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="home.php">
+                                <i class="fas fa-home"></i>
+                                <span class="h5" style="color :blue">Home</span>
+                            </a>
+                        </li>
+                        <hr class="bg-white">
+                        <li class="nav-item navsep">
+                            <a class="nav-link " href="aboutus.php">
+                                <i class="fa fa-group"></i>
+                                <span class=" h5" style="color :blue">About Us</span>
+                            </a>
+                        <li>
+                            <hr class="bg-white">
+                        <li class="nav-item navsep">
+                            <a class="nav-link " href="quiz.php">
+                                <i class="fas fa-comments"></i>
+                                <span class=" h5" style="color :blue">Inquires</span>
+                            </a>
+                        <li>
+                            <hr class="bg-white">
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 col-lg-9 bg-light">
+                <div>

@@ -1,6 +1,23 @@
 <?php
 include "header.php"?>
 
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <script src='bootstrap/js/popper.min.js'></script>
+    <script src='bootstrap/js/jquery.min.js '></script>
+    <script src='bootstrap/js/bootstrap.min.js '></script>
+<title></title>
+
+</head>
+
 <div class="col-md-9 col-lg-9 bg-light">
     <!--Applicants booking-->
     <br>
@@ -16,7 +33,7 @@ include "header.php"?>
 
         </div>
         <div class="col">
-            <label class="form-label grey">Second Name:</label>
+            <label class="form-label grey">Last Name:</label>
             <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lname_app"
                 required>
 
@@ -34,8 +51,13 @@ include "header.php"?>
     <div class="row m-2 p-2">
         <div class="col-md-6">
             <label class="form-label grey">Phone Number</label>
-            <input class="form-control" type="text" name="phoneNumber">
+            <input class="form-control" type="text" name="phoneNumber" required>
+
         </div>
+        <div>
+        <hr>
+        </div>
+        
     </div>
 
 
