@@ -1,5 +1,6 @@
 <?php
-include "header.php"?>
+include "header.php"
+?>
 
 <head>
 
@@ -14,7 +15,7 @@ include "header.php"?>
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
     <script src='bootstrap/js/bootstrap.min.js '></script>
-<title></title>
+    <title></title>
 
 </head>
 
@@ -55,23 +56,31 @@ include "header.php"?>
 
         </div>
         <div>
-        <hr>
+            <hr>
         </div>
-        
+
     </div>
     <!--hostel and payment details-->
-<h5 class="text-primary">Payment Details</h5>
-<div class="row m-2 p-2">
-<label for="hostel_type">Choose your hostel type:</label>
-<select class="form-select" aria-label="Default select example" name="hostel_type" id="hostel_type">
-  <option disabled selected>Select below</option>
-  <option value="1">Single Room</option>
-  <option value="2">Two-shared room</option>
-  <option value="3">Self-contained shared room</option>
-</select>
-</div>
-<label for="">Payment :</label>
-    
+    <h5 class="text-primary">Payment Details</h5>
+    <div class="row m-2 p-2">
+        <label for="hostel_type">Choose your hostel type:</label>
+        <select class="form-select" aria-label="Default select example" name="hostel_type" id="hostel_type">
+            <option disabled selected>Select below</option>
+            <option value="1">Single Room</option>
+            <option value="2">Two-shared room</option>
+            <option value="3">Self-contained shared room</option>
+        </select>
+    </div>
+    <div class="row">
+    <label for="payer">Payment :</label>
+    <select class="form-select" aria-label="Default select example" name="payer" id="payer">
+        <option disabled selected>Select below</option>
+        <option value="1">Self</option>
+        <option value="2">Kin</option>
+        <option value="3">Organisation</option>
+    </select>
+    </div>
+
 
 
 </div>
@@ -80,6 +89,6 @@ include "header.php"?>
 
 </main>
 
-    <?php
+<?php
 include "footer.php";
 ?>
