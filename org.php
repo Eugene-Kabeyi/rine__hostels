@@ -18,7 +18,23 @@ include "header.php"?>
 
 </head>
 
+<div class="row m-2 p-2">
+        <div class=" col mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                name="email_app" placeholder="name@example.com" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+    </div>
+    <div class="row m-2 p-2">
+        <div class="col-md-6">
+            <label class="form-label grey">Phone Number</label>
+            <input class="form-control" type="text" name="phoneNumber" required>
 
+        </div>
+        <div>
+            <hr>
+        </div>
 
     
 
