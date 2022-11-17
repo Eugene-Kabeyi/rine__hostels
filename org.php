@@ -10,6 +10,7 @@ include "header.php"?>
     <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="newstyle.css">
 
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
@@ -17,26 +18,28 @@ include "header.php"?>
     <title></title>
 
 </head>
+<h3>Please fill in all the details</h3>
+<!--Organisation details-->
 
 <div class="row m-2 p-2">
-        <div class=" col mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                name="email_app" placeholder="name@example.com" required>
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
+    <div class=" col mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address:</label>
+        <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp" name="email_org"
+            placeholder="name@example.com" required>
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
-    <div class="row m-2 p-2">
-        <div class="col-md-6">
-            <label class="form-label grey">Phone Number</label>
-            <input class="form-control" type="text" name="phoneNumber" required>
+</div>
+<div class="row m-2 p-2">
+    <div class="col-md-6">
+        <label class="form-label grey">Phone Number</label>
+        <input class="form-control" type="text" name="phoneNumber_org" required>
 
-        </div>
-        <div>
-            <hr>
-        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
 
-    
+</div>
 
 
 </main>
