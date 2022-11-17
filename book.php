@@ -71,8 +71,8 @@ include "header.php"
             <option value="3">Self-contained shared room</option>
         </select>
     </div>
-    <div class="row">
-    <label for="payer">Payment :</label>
+    <div class="row m-2 p-2">
+    <label for="payer">Payment by :</label>
     <select class="form-select" aria-label="Default select example" name="payer" id="payer">
         <option disabled selected>Select below</option>
         <option value="1">Self</option>

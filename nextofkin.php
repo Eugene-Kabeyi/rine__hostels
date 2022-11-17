@@ -27,45 +27,71 @@ include "header.php"?>
     <h3 class="text-info">Please fill in the details below :</h3>
     <br>
     <!--payer details-->
-    <h5 class="text-primary">Kin Details</h5>
-    <div class="row m-2 p-2">
-        <div class="col">
-            <label class="form-label grey">First Name:</label>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="fname_app"
-                required>
+    <form action="">
+        <h5 class="text-primary">Kin Details</h5>
+        <div class="row m-2 p-2">
+            <div class="col">
+                <label class="form-label grey">First Name:</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                    name="fname_kin" required>
+
+            </div>
+            <div class="col">
+                <label class="form-label grey">Last Name:</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lname_kin"
+                    required>
+
+            </div>
 
         </div>
-        <div class="col">
-            <label class="form-label grey">Last Name:</label>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lname_app"
-                required>
-
+        <div class="row m-2 p-2">
+            <div class=" col mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    name="email_kin" placeholder="name@example.com" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
         </div>
+        <div class="row m-2 p-2">
+            <div class="col-md-6">
+                <label class="form-label grey">Phone Number</label>
+                <input class="form-control" type="text" name="phoneNumber" required>
 
-    </div>
-    <div class="row m-2 p-2">
-        <div class=" col mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                name="email_app" placeholder="name@example.com" required>
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-    </div>
-    <div class="row m-2 p-2">
-        <div class="col-md-6">
-            <label class="form-label grey">Phone Number</label>
-            <input class="form-control" type="text" name="phoneNumber" required>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div>
+              
+            </div>
+            <div>
+            <input class="btn btn-outline-info" type="submit" value="Submit" name= "submit">
 
-        </div>
-        <div>
-            <hr>
-        </div>
+            </div>
+            <div>
+               <br>
+            </div>
+            <div>
+               <br>
+            </div>
+            <div>
+               <br>
+            </div>
+            <div>
+               <br>
+            </div>
+            <div>
+               <br>
+            </div>
+            <div>
+               <br>
+            </div>
+    </form>
 
-    
 
 
-</main>
+    </main>
 
-<?php
+    <?php
 include "footer.php";
 ?>

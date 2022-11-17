@@ -20,10 +20,26 @@ include "header.php"?>
 
 
 
-<div class="col-md-9 col-lg-9 bg-light">
-    <div>
-        </main>
+<div class="col bg-light">
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-5">
+            Are you looking for a hostel with the best best environment to optimise your higher studies?
 
-        <?php
+        </div>
+        <div class="col-7">
+            <marquee width="60%" direction="left" height="100px" scrollamount="3">
+                Then RINE HOSTELS is your ANSWER
+            </marquee>
+        </div>
+    </div>
+</div>
+<div>
+
+</div>
+</main>
+
+<?php
 include "footer.php";
 ?>
