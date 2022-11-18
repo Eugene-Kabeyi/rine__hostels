@@ -32,34 +32,53 @@ include "header.php"?>
         </div>
         <div class="col-4" id="blink">
 
-            Then <span class="text-info">RINE HOSTELS </span> is your <span class="text-info">ANSWER</span> 
+            Then <span class="text-info">RINE HOSTELS </span> is your <span class="text-info">ANSWER</span>
 
         </div>
         <!--Making the text above Blink-->
         <script type="text/javascript">
-          var blink =
+        var blink =
             document.getElementById('blink');
 
-          setInterval(function() {
+        setInterval(function() {
             blink.style.opacity =
                 (blink.style.opacity == 0 ? 1 : 0);
-            }, 1000);
+        }, 1000);
         </script>
     </div>
 </div>
-<div class="row bg-light">
-    <span class="renown">We have a renowned hostel with a great reputation</span>
+<div class="row bg-light" id="caro">
+   
+    <span class="renown" style=" padding-left: 15%;">We have a renowned hostel with a great reputation</span>
+    <br>
+    <!--SLIDE-->
     <div class="slide11">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="3000" id="image_caro">
+                    <img src="pics/thehostel.jpg" class="d-block w-100" alt="suburb environment">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Environment</h5>
+                        <p>Achieve your best at our quiet Suburb environment.</p>
+                    </div>
+
+                    
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item" data-bs-interval="2000" id="image_caro">
+                    <img src="pics/personreading.jpg" class="d-block w-100" alt="reading space">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Facilities </h5>
+                        <p>Take advantage of our facilities.</p>
+                    </div>
+                   
                 </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item" id="image_caro">
+                    <img src="pics/pool.jpg" class="d-block w-100" alt="pool game" id="image_caro">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Entertainment</h5>
+                        <p>Entertain yourself with games.</p>
+                    </div>
+                 
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -81,21 +100,24 @@ include "header.php"?>
     </div>
     <br>
     <hr>
-    <div class="row">
-
-
-        <div class="col offset-2">
-            <span>Any Queries ??</span>
-        </div>
-
-        <div class="col offset-2">
-            <span>WANT TO BOOK </span>
-        </div>
-
-    </div>
 
 
 </div>
+
+<div class="row bg-light">
+
+
+        <div class="col-4 btn btn-outline-info" id="endd">
+           <a href="" style="text-decoration: none;">Any Queries ??</a> 
+
+        </div>
+
+        <div class="col-4 offset-4 btn btn-outline-info" id="endd">
+        <i class="fas fa-hand-point-right " style="margin :4px "></i>
+           <a href="book.php" style="text-decoration: none;">BOOK NOW</a> 
+        </div>
+
+    </div>
 <div class="push"></div>
 
 </main>

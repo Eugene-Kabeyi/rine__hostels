@@ -45,7 +45,7 @@
                                         <a class="nav-link active" aria-current="page" href="#"></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="book.php">
                                             <i class="fas fa-hand-point-right" style="margin :2px ;color: cyan"></i>
                                             <span style="font-size : 17px ;color: cyan">Book Now</span></a>
                                     </li>

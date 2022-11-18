@@ -8,3 +8,16 @@
     font-weight: bold;
     font-family: sans-serif;
 }
+#image_caro{
+    border: .5px solid rgb(66, 248, 239);
+    height: 400px;
+    width: 1200px;
+    object-fit: cover;
+}
+#caro{
+   padding-left: 10%;
+   background-color: aqua;
+}
+.renown{
+    padding-left: 40%;
+}

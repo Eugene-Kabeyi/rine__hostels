@@ -27,7 +27,7 @@
                 <div class="footer-col">
                     <img src="rinehostels.png" alt="logo" width ="200">
                     <ul>
-                        <li><a href="#">about us</a></li>
+                        <li><a href="aboutus.php">about us</a></li>
                         <li><a href="#">our services</a></li>
                         <li><a href="#">privacy policy</a></li>
 
