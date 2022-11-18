@@ -10,6 +10,7 @@ include "header.php"?>
     <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="newstyle.css">
 
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
@@ -24,15 +25,26 @@ include "header.php"?>
     <br>
     <br>
     <div class="row">
-        <div class="col-5">
-            Are you looking for a hostel with the best best environment to optimise your higher studies?
-
-        </div>
-        <div class="col-7">
+        <div class="col-8">
             <marquee width="60%" direction="left" height="100px" scrollamount="3">
-                Then RINE HOSTELS is your ANSWER
+                Are you looking for a hostel with the best best environment to optimise your higher studies?
             </marquee>
         </div>
+        <div class="col-4" id="blink">
+
+            Then <span class="text-info">RINE HOSTELS </span> is your <span class="text-info">ANSWER</span> 
+
+        </div>
+        <!--Making the text above Blink-->
+        <script type="text/javascript">
+          var blink =
+            document.getElementById('blink');
+
+          setInterval(function() {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+            }, 1000);
+        </script>
     </div>
 </div>
 <div class="row bg-light">
@@ -67,10 +79,19 @@ include "header.php"?>
             ...
         </table>
     </div>
-    <div>
-        <span>Any Queries ??</span>
-        <br>
-        <span>WANT TO BOOK </span>
+    <br>
+    <hr>
+    <div class="row">
+
+
+        <div class="col offset-2">
+            <span>Any Queries ??</span>
+        </div>
+
+        <div class="col offset-2">
+            <span>WANT TO BOOK </span>
+        </div>
+
     </div>
 
 

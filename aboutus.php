@@ -41,7 +41,7 @@ include "header.php"?>
     </div>
     </div>
 </div>
-<div class="row">
+<div class="row bg-light">
     <div class="row">
         <div class="col">
             <div class="card" style="width: 18rem;">

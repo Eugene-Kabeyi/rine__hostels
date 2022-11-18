@@ -43,7 +43,7 @@ include "header.php"?>
             <div class="button_end">
                 <input class="btn btn-outline-info" type="submit" value="Submit" name="submit">
             </div>
-            
+            <br>
 
         </div>
     </div>
