@@ -67,9 +67,16 @@ include "header.php"?>
             ...
         </table>
     </div>
+    <div>
+        <span>Any Queries ??</span>
+        <br>
+        <span>WANT TO BOOK </span>
+    </div>
 
 
 </div>
+<div class="push"></div>
+
 </main>
 
 <?php

@@ -55,8 +55,8 @@
                                             Questions??
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">How do I pay?</a></li>
-                                            <li><a class="dropdown-item" href="#">Are there any other miscallenous cost?
+                                            <li><a class="dropdown-item" href="#" onclick="">How do I pay?</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="">Are there any other miscallenous cost?
                                                     </self-contined></a></li>
                                             <li>
                                                 <hr class="dropdown-divider">

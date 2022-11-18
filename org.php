@@ -40,11 +40,15 @@ include "header.php"?>
             <div>
                 <hr>
             </div>
-            <div class="push"></div>
+            <div class="button_end">
+                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit">
+            </div>
+            
 
         </div>
     </div>
 </div>
+<div class="push"></div>
 
 </main>
 
