@@ -18,29 +18,33 @@ include "header.php"?>
     <title></title>
 
 </head>
-<h3>Please fill in all the details</h3>
-<!--Organisation details-->
+<div class="col-md-9 col-lg-9 bg-light">
+    <div class="col-md-9 col-lg-9 bg-light">
+        <h3>Please fill in all the details</h3>
+        <!--Organisation details-->
 
-<div class="row m-2 p-2">
-    <div class=" col mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address:</label>
-        <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp" name="email_org"
-            placeholder="name@example.com" required>
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <div class="row m-2 p-2">
+            <div class=" col mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp" name="email_org"
+                    placeholder="name@example.com" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+        </div>
+        <div class="row m-2 p-2">
+            <div class="col-md-6">
+                <label class="form-label grey">Phone Number</label>
+                <input class="form-control" type="text" name="phoneNumber_org" required>
+
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class="push"></div>
+
+        </div>
     </div>
 </div>
-<div class="row m-2 p-2">
-    <div class="col-md-6">
-        <label class="form-label grey">Phone Number</label>
-        <input class="form-control" type="text" name="phoneNumber_org" required>
-
-    </div>
-    <div>
-        <hr>
-    </div>
-
-</div>
-
 
 </main>
 

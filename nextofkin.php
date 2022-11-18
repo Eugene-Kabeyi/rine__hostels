@@ -67,25 +67,7 @@ include "header.php"?>
             <div>
             <input class="btn btn-outline-info" type="submit" value="Submit" name= "submit">
 
-            </div>
-            <div>
-               <br>
-            </div>
-            <div>
-               <br>
-            </div>
-            <div>
-               <br>
-            </div>
-            <div>
-               <br>
-            </div>
-            <div>
-               <br>
-            </div>
-            <div>
-               <br>
-            </div>
+            <div class="push"></div>
     </form>
 
 
