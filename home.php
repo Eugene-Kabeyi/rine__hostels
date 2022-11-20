@@ -49,7 +49,7 @@ include "header.php"?>
 </div>
 <div class="row bg-light" id="caro">
    
-    <span class="renown" style=" padding-left: 15%;">We have a renowned hostel with a great reputation</span>
+    <div class="renown" style=" padding-left: 15%;">We have a renowned hostel with a great reputation</div>
     <br>
     <!--SLIDE-->
     <div class="slide11">

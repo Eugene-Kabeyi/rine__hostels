@@ -10,12 +10,12 @@
 }
 #image_caro{
     border: .5px solid rgb(66, 248, 239);
-    height: 400px;
+    height: 600px;
     width: 1200px;
     object-fit: cover;
 }
 #caro{
-   padding-left: 10%;
+   padding-left: 5%;
    background-color: aqua;
 }
 .renown{
