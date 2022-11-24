@@ -25,14 +25,16 @@ include "header.php"?>
     <br>
     <br>
     <div class="row">
-        <div class="col-8">
-            <marquee width="60%" direction="left" height="100px" scrollamount="3">
-                Are you looking for a hostel with the best best environment to optimise your higher studies?
-            </marquee>
-        </div>
-        <div class="col-4" id="blink">
+        <div class="col-5" id="think11">
+            
+            <h1 class="display-5 text-danger">Are you looking for a hostel with the best best environment to optimise your higher studies?</h1>
 
-            Then <span class="text-info">RINE HOSTELS </span> is your <span class="text-info">ANSWER</span>
+          
+        </div>
+        <div class="col-7" id="blink">
+
+        <h1 class="display-5">Then <span class="text-info">RINE HOSTELS </span> is your <span class="text-info">ANSWER</span></h1>
+            <img src="rinehostels.png" alt="logo">
 
         </div>
         <!--Making the text above Blink-->
@@ -47,9 +49,10 @@ include "header.php"?>
         </script>
     </div>
 </div>
-<div class="row bg-light" id="caro">
+<div class="row bg-light" >
    
-    <div class="renown" style=" padding-left: 15%;">We have a renowned hostel with a great reputation</div>
+    
+</div class="slide">
     <br>
     <!--SLIDE-->
     <div class="slide11">
@@ -93,9 +96,14 @@ include "header.php"?>
             </button>
         </div>
     </div>
+    <div class="renown" style=" padding-left: 15%;"><h1 class="display-3 text-primary">We have a renowned hostel with a great reputation</h1>
     <div>
         <table class="table table-success table-striped-columns">
-            ...
+           <tr></tr>
+           <tr></tr>
+           <tr></tr>
+           <tr></tr>
+           
         </table>
     </div>
     <br>
@@ -103,7 +111,7 @@ include "header.php"?>
 
 
 </div>
-
+<br>
 <div class="row bg-light">
 
 
@@ -118,7 +126,7 @@ include "header.php"?>
         </div>
 
     </div>
-<div class="push"></div>
+<div  id="push"></div>
 
 </main>
 

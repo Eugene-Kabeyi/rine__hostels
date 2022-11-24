@@ -9,6 +9,8 @@ include "header.php"?>
     <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="newstyle.css">
+
 
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
@@ -102,7 +104,7 @@ include "header.php"?>
     </div>
 </div>
 
-<div class="push"></div>
+<div id="push"></div>
 </main>
 
 <?php

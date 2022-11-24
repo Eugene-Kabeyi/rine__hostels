@@ -6,18 +6,29 @@
 #blink {
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    
 }
 #image_caro{
     border: .5px solid rgb(66, 248, 239);
     height: 600px;
     width: 1200px;
     object-fit: cover;
+    
+
 }
-#caro{
-   padding-left: 5%;
-   background-color: aqua;
+.slide{
+    margin-top: 10px;
+   padding-left: 2%;
 }
 .renown{
     padding-left: 40%;
+}
+#think11{
+    background-image: url('pics/think11.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#push{
+    height: 100px;
 }
