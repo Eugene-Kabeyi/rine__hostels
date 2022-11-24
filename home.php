@@ -99,10 +99,31 @@ include "header.php"?>
     <div class="renown" style=" padding-left: 15%;"><h1 class="display-3 text-primary">We have a renowned hostel with a great reputation</h1>
     <div>
         <table class="table table-success table-striped-columns">
-           <tr></tr>
-           <tr></tr>
-           <tr></tr>
-           <tr></tr>
+           <tr>
+            <th>Year</th>
+            <th>Contribution</th>
+           </tr>
+           <tr>
+            <td>2018</td>
+            <td>Rated the cleanest Hostel within the area</td>
+           </tr>
+           <tr>
+            <td>2019</td>
+            <td>Rated the most Hospitable and best in Caretaking</td>
+           </tr>
+           <tr>
+            <td>2020</td>
+            <td>Rated 3RD Best interms of Facilities</td>
+           </tr>
+           <tr>
+            <td>2021</td>
+            <td>Food rated tobe of High Quality and health</td>
+           </tr>
+           <tr>
+            <td>2022</td>
+            <td>Best Entertainment Services</td>
+           </tr>
+           
            
         </table>
     </div>
