@@ -16,6 +16,13 @@ include "header.php"?>
     <script src='bootstrap/js/jquery.min.js '></script>
     <script src='bootstrap/js/bootstrap.min.js '></script>
     <title></title>
+    <style>
+    img {
+        height: 400px;
+        object-fit: cover;
+
+    }
+    </style>
 
 </head>
 
@@ -23,31 +30,9 @@ include "header.php"?>
 
 <div class="col-md-9 col-lg-9 bg-light">
     <div class="row">
-    <div class="col offset-1">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
-<div class="row bg-light">
-    <div class="row">
-        <div class="col">
+        <div class="col offset-1">
             <div class="card" style="width: 18rem;">
-                <img src=" pics/sorrounding.jpg" class="card-img-top" alt="...">
+                <img src="pics/sorrounding.jpg" class="card-img-top" alt="surrounding pic">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -56,45 +41,7 @@ include "header.php"?>
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="pics/readingspace.jpg" class="card-img-top" alt="reading space">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="pics/meetingspace.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="pics/singleroom.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="pics/sharedroom.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="pics/guards.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -103,10 +50,119 @@ include "header.php"?>
         </div>
     </div>
 </div>
+<div>
+    <hr>
+</div>
+<div class="row bg-light ">
+    <div class="row bg-light m-2">
+        <div class="row m-2">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src=" pics/readingspace.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/meetingspace.jpg" class="card-img-top" alt="reading space">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div class="bg-light">
+        <div>
+            <hr>
+        </div>
 
-<div id="push"></div>
-</main>
+        <div class="row bg-light m-2">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/singleroom.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/sharedroom.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="row bg-light m-2">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/football.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/newpool.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="pics/basketball.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<?php
+    <div id="push"></div>
+    </main>
+
+    <?php
 include "footer.php";
 ?>

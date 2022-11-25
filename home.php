@@ -1,5 +1,6 @@
 <?php
-include "header.php"?>
+include "header.php"
+?>
 
 <head>
 
@@ -146,7 +147,7 @@ include "header.php"?>
            <a href="book.php" style="text-decoration: none;">BOOK NOW</a> 
         </div>
 
-    </div>
+    </div class="bg-light">
 <div  id="push"></div>
 
 </main>

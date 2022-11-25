@@ -16,6 +16,7 @@
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
     <script src='bootstrap/js/bootstrap.min.js '></script>
+    <script src='alert.js'></script>
 
 </head>
 
@@ -55,13 +56,13 @@
                                             Questions??
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#" onclick="">How do I pay?</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="">Are there any other miscallenous cost?
+                                            <li><a class="dropdown-item" href="#" onclick="msg()">How do I pay?</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="umsg()">Are there any other miscallenous cost?
                                                     </self-contined></a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Are our rooms self-contained?</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="vmsg()">Are our rooms self-contained?</a></li>
                                         </ul>
                                     </li>
 
