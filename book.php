@@ -75,7 +75,7 @@ include "header.php"
         </div>
         <div class="row m-2 p-2">
             <label for="payer">Payment by :</label>
-            <select class="form-select" aria-label="Default select example" name="payer" id="payer">
+            <select class="form-select" aria-label="Default select example" name="payer" id="payer" required>
                 <option disabled selected>Select below</option>
                 <option value="1">Self</option>
                 <option value="2">Kin</option>
