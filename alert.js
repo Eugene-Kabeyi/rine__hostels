@@ -1,25 +1,30 @@
-function msg(){
-    alert("One can pay Via Mpesa, Paypal and through bank");
+function msg() {
+  alert("One can pay Via Mpesa, Paypal and through bank");
 }
-function umsg(){
-    alert("Yes, there is damage precationary cost - 3000Ksh");
+function umsg() {
+  alert("Yes, there is damage precationary cost - 3000Ksh");
 }
-function vmsg(){
-    alert("Some are self contained others single, while others are shared");
+function vmsg() {
+  alert("Some are self contained others single, while others are shared");
 }
-        }
 
 function myFunction() {
-    let code = prompt("Enter code sent to your email");
-    if (code == 123) {
-      /*var payer= document.getElementById("payer").value;
+  let code = prompt("Enter code sent to your email");
+  if (code == 123) {
+    var payer = document.getElementById("payer").value
+    let payer1= "kin"
+    //let payer2= "self"
+    let payer3= "org"
     
-      if(payer==="kin"){*/
-        window.location.href="nextofkin.php";
-     /*}else{
-        alert("Saved");
-      }*/
+    if (payer == payer1) {
+      window.location.href='kin.php';
+    } else if(payer == payer3) {
+      window.location.href='org.php';
     }else{
-        alert("Bad")
+      alert("Saved")
     }
+
+  } else {
+    alert("Wrong Code")
   }
+}
