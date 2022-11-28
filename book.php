@@ -88,9 +88,9 @@ include "header.php"
                 <hr>
             </div>
             <div class="button_end">
-                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="myFunction()">
+                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="redirect()">
             </div>
-        
+            
             <br>
         </form>
     </div>
