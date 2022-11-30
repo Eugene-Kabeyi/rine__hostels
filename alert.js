@@ -11,7 +11,7 @@ function vmsg() {
 function myFunction() {
   let code = prompt("Enter code sent to your email");
   if (code == 123) {
-    alert("Saved")
+    alert("Fetching data..... ")
 
   } else {
     alert("Wrong Code")
