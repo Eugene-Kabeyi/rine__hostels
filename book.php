@@ -29,7 +29,7 @@ include "header.php"
         <br>
         <!--Applicants details-->
         <h5 class="text-primary">Applicants Details</h5>
-        <form action="">
+        <form action="redirect.php" method="post" enctype="multipart/form-data">
             <div class="row m-2 p-2">
                 <div class="col">
                     <label class="form-label grey">First Name:</label>
@@ -56,7 +56,7 @@ include "header.php"
             <div class="row m-2 p-2">
                 <div class="col-md-6">
                     <label class="form-label grey">Phone Number</label>
-                    <input class="form-control" type="text" name="phoneNumber" required>
+                    <input class="form-control" type="text" name="tel_app" required>
 
                 </div>
                 <div>
@@ -88,7 +88,7 @@ include "header.php"
                 <hr>
             </div>
             <div class="button_end">
-                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="redirect()">
+                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="myFunction()s">
             </div>
             
             <br>

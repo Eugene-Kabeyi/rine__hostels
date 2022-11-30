@@ -17,7 +17,3 @@ function myFunction() {
     alert("Wrong Code")
   }
 }
-function redirect() {
-  
-  window.location.replace = ("home.php");
-}

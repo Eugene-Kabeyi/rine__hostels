@@ -28,7 +28,7 @@ include "header.php"?>
     <h3 class="text-info">Please fill in the details below :</h3>
     <br>
     <!--payer details-->
-    <form action="">
+    <form action="redirect.php" method="post" enctype="multipart/form-data">
         <h5 class="text-primary">Kin Details</h5>
         <div class="row m-2 p-2">
             <div class="col">
@@ -56,7 +56,7 @@ include "header.php"?>
         <div class="row m-2 p-2">
             <div class="col-md-6">
                 <label class="form-label grey">Phone Number</label>
-                <input class="form-control" type="text" name="phoneNumber" required>
+                <input class="form-control" type="text" name="tel_kin" required>
 
             </div>
             <div>

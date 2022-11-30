@@ -1,26 +1,41 @@
 <?php
-
- var payer = document.getElementById("payer").value
- var payer1= "kin"
- //let payer2= "self"
- let payer3= "org"
- 
- if (payer == payer1) {
-  window.location= 'kin.php';
- } else if(payer == payer3) {
-   window.location.href='/opt/lampp/htdocs/codes/semester_project/org.php';
- }else{
-   alert("Saved")
- }
  $link = mysqli_connect("localhost", "root", "", "motor");
 
 if (isset($_POST["submit"])) {
-    $fullname = $_POST["fullName"];
-    $admissionNo = $_POST["admissionNo"];
-    $stream = $_POST["stream"];
-    $email = $_POST["emailAddress"];
-    $phone = $_POST["phoneNumber"];
-    $location = $_POST["location"];
-    $dob = $_POST["dob"];
-    $gender = $_POST["gender"];}
+    $fnameapp = $_POST["fname_app"];
+    $lnameapp = $_POST["lname_app"];
+    $emailapp = $_POST["email_app"];
+    $telapp = $_POST["tel_app"];
+    $hosteltype = $_POST["hostel_type"];
+    $payer = $_POST["payer"];
+    $fnamekin = $_POST["fname_kin"];
+    $lnamekin = $_POST["lname_kin"];
+    $emailkin = $_POST["email_kin"];
+    $telkin = $_POST["tel_kin"];
+    $emailorg = $_POST["email_org"];
+    $telorg = $_POST["tel_org"];
+
+    $payer1="Kin"
+    $payer2="Organisation"
+    if($payer=$payer1){
+      header("location:kin.php");
+    }elseif ($payer=$payer2) {
+      header("location:kin.php");
+    }else{
+      echo"WAIT..."
+    }
+
+    
+
+  $sql= "INSERT INTO `application`(`fnameapp`, `lnameapp`, `emailapp`, `telapp`, `hosteltype`, `payer`, `fnamekin`, `lnamekin`, `emailkin`, `telkin`, `emailorg`, `telorg`) 
+  VALUES ('fnameapp','lnameapp','emailapp ','telapp','hosteltype','payer','fnamekin','lnamekin','emailkin','telkin ','emailorg','telorg')"
+ $result = mysqli_query($link,$sql);  
+ if($result){
+  echo "You have been Registered";
+
+}else{
+  echo "error executing  query $sql".mysqli_error($link);
+
+}
+}
     

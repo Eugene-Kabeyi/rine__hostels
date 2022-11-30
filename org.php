@@ -22,31 +22,35 @@ include "header.php"?>
     <div class="col-md-9 col-lg-9 bg-light">
         <h3>Please fill in all the details</h3>
         <!--Organisation details-->
+        <form action="redirect.php" method="post" enctype="multipart/form-data">
+            <div class="row m-2 p-2">
 
-        <div class="row m-2 p-2">
-            <div class=" col mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address:</label>
-                <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp" name="email_org"
-                    placeholder="name@example.com" required>
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-        </div>
-        <div class="row m-2 p-2">
-            <div class="col-md-6">
-                <label class="form-label grey">Phone Number</label>
-                <input class="form-control" type="text" name="phoneNumber_org" required>
+                <div class=" col mb-3">
 
+                    <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                    <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp"
+                        name="email_org" placeholder="name@example.com" required>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
             </div>
-            <div>
-                <hr>
-            </div>
-            <div class="button_end">
-                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit">
+            <div class="row m-2 p-2">
+                <div class="col-md-6">
+                    <label class="form-label grey">Phone Number</label>
+                    <input class="form-control" type="text" name="tel_org" required>
+
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="button_end">
+                    <input class="btn btn-outline-info" type="submit" value="Submit" name="submit">
+                </div>
             </div>
             <br>
-
-        </div>
+        </form>
     </div>
+
+</div>
 </div>
 <div class="push"></div>
 
