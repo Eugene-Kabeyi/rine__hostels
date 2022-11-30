@@ -29,14 +29,14 @@ include "header.php"?>
 
                     <label for="exampleInputEmail1" class="form-label">Email address:</label>
                     <input type="email" class="form-control" id="email_org" aria-describedby="emailHelp"
-                        name="email_org" placeholder="name@example.com" required>
+                        name="emailorg" placeholder="name@example.com" required>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
             </div>
             <div class="row m-2 p-2">
                 <div class="col-md-6">
                     <label class="form-label grey">Phone Number</label>
-                    <input class="form-control" type="text" name="tel_org" required>
+                    <input class="form-control" type="text" name="telorg" required>
 
                 </div>
                 <div>

@@ -15,5 +15,6 @@ function myFunction() {
 
   } else {
     alert("Wrong Code")
+    event.preventDefault()
   }
 }

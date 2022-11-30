@@ -34,13 +34,13 @@ include "header.php"
                 <div class="col">
                     <label class="form-label grey">First Name:</label>
                     <input type="text" class="form-control" placeholder="First name" aria-label="First name"
-                        name="fname_app" required>
+                        name="fnameapp" required>
 
                 </div>
                 <div class="col">
                     <label class="form-label grey">Last Name:</label>
                     <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
-                        name="lname_app" required>
+                        name="lnameapp" required>
 
                 </div>
 
@@ -49,14 +49,14 @@ include "header.php"
                 <div class=" col mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address:</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        name="email_app" placeholder="name@example.com" required>
+                        name="emailapp" placeholder="name@example.com" required>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
             </div>
             <div class="row m-2 p-2">
                 <div class="col-md-6">
                     <label class="form-label grey">Phone Number</label>
-                    <input class="form-control" type="text" name="tel_app" required>
+                    <input class="form-control" type="text" name="telapp" required>
 
                 </div>
                 <div>
@@ -68,27 +68,27 @@ include "header.php"
             <h5 class="text-primary">Payment Details</h5>
             <div class="row m-2 p-2">
                 <label for="hostel_type">Choose your hostel type:</label>
-                <select class="form-select" aria-label="Default select example" name="hostel_type" id="hostel_type">
+                <select class="form-select" aria-label="Default select example" name="hosteltype" id="hostel_type">
                     <option disabled selected>Select below</option>
-                    <option value="1">Single Room</option>
-                    <option value="2">Two-shared room</option>
-                    <option value="3">Self-contained shared room</option>
+                    <option value="Single Room">Single Room</option>
+                    <option value="Two-shared room">Two-shared room</option>
+                    <option value="Self-contained shared room">Self-contained shared room</option>
                 </select>
             </div>
             <div class="row m-2 p-2">
                 <label for="payer">Payment by :</label>
                 <select class="form-select" aria-label="Default select example" name="payer" id="payer" required>
                     <option disabled selected>Select below</option>
-                    <option value="self">Self</option>
-                    <option value="kin">Kin</option>
-                    <option value="org">Organisation</option>
+                    <option value="Self">Self</option>
+                    <option value="Kin">Kin</option>
+                    <option value="Organisation">Organisation</option>
                 </select>
             </div>
             <div>
                 <hr>
             </div>
             <div class="button_end">
-                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="myFunction()s">
+                <input class="btn btn-outline-info" type="submit" value="Submit" name="submit" onclick="myFunction()">
             </div>
             
             <br>

@@ -33,8 +33,8 @@ include "header.php"?>
         <div class="row m-2 p-2">
             <div class="col">
                 <label class="form-label grey">First Name:</label>
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name"
-                    name="fname_kin" required>
+                <input type="text" class="form-control" placeholder="First name" 
+                    name="fnamekin" required>
 
             </div>
             <div class="col">
