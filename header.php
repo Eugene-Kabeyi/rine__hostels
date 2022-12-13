@@ -12,7 +12,8 @@
     <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-
+    <link rel="stylesheet" href="headerstyle.css">
+    
     <script src='bootstrap/js/popper.min.js'></script>
     <script src='bootstrap/js/jquery.min.js '></script>
     <script src='bootstrap/js/bootstrap.min.js '></script>
@@ -33,13 +34,14 @@
                             <a class="navbar-brand" href="#">
                                 <i class="fa fa-hotel fa-2x " style="margin:2px"></i>
                                 <span class="h4">Rine Hostels</span></a>
+
+                        </div>
+                        <div class="col-md-6 offset-md-2">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <i class="fa fa-bars"></i>
                             </button>
-                        </div>
-                        <div class="col-md-6 offset-md-2">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
@@ -57,12 +59,14 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#" onclick="msg()">How do I pay?</a></li>
-                                            <li><a class="dropdown-item" href="#" onclick="umsg()">Are there any other miscallenous cost?
+                                            <li><a class="dropdown-item" href="#" onclick="umsg()">Are there any other
+                                                    miscallenous cost?
                                                     </self-contined></a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#" onclick="vmsg()">Are our rooms self-contained?</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="vmsg()">Are our rooms
+                                                    self-contained?</a></li>
                                         </ul>
                                     </li>
 
@@ -82,8 +86,8 @@
     </header>
     <main>
         <div class="row" style="margin:2px;">
-            <div class="col-md-3 col-lg-3" style="margin: 0%" >
-                <div class="bg-dark" style=" border-right:6px solid cyan; margin-left: 0%" >
+            <div class="col-md-3 col-lg-3" style="margin: 0%">
+                <div class="bg-dark" style=" border-right:6px solid cyan; margin-left: 0%">
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link active" href="home.php">
@@ -109,4 +113,3 @@
                     </ul>
                 </div>
             </div>
-           
